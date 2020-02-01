@@ -1,0 +1,189 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    background-color: #eee;
+    font-size: 10px;
+    font-family: Arial;
+  }
+  
+  img{
+    float: left;
+    height: 150px;
+    margin-left: 50px;
+    margin-top: 10px;
+  }
+  
+  #header{
+      position: sticky;
+      top: 0;
+      z-index: 1;
+  }
+
+  .nav-link{
+    text-decoration: none;
+    float: right;
+    margin: 30px 50px 10px 10px;
+    color: black;
+    font-size: 1.5em;
+  }
+  
+  #clear{
+    clear: both;
+  }
+    
+  #cent-form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  h1{  
+    font-size: 2.5em;
+  }
+  
+  [type="email"]{
+    margin-top: 20px;
+    width: 20em;
+    padding: 5px;
+  }
+  
+  [type="submit"]{
+    margin-top: 20px;
+    padding: 5px;
+    width: 10em;
+    border-radius: 4px;
+    border: none;
+    background-color: rgb(241,196,15);
+    font-weight: bold;
+    font-size: 1.5em;
+  }
+
+  #flex-container{
+      margin-top: 40px;
+      font-size: 2em;
+      margin-left: 10%;
+  }
+  
+  .sec-flex-cont{
+    display: flex;
+    flex-direction: row;
+  }
+  
+  #flex-container .icons{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 120px;
+    width: 20vw;
+    color: #ff9d3b;
+    font-size: 2em;
+  }
+  
+
+
+  #flex-container .feature{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 120px;
+    width: 70vw;
+    font-size: 0.8em;
+  }
+
+iframe{
+    margin-left: 33%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+#ind-flex{
+border: 1px solid black;
+width: 22vw;
+height: 300px;
+border-radius: 2px;
+}
+
+#cont-flex{
+display: flex;
+justify-content: center;
+text-align: center;
+font-size: 2em;
+margin-top: 30px;
+}
+
+.grayscale{
+    background-color: rgb(197, 191, 191);
+    padding: 7px;
+}
+
+button{
+    margin-top: 20px;
+    padding: 5px 20px;
+    background-color: rgb(241,196,15);
+    border: none;
+    font-size: 1em;
+}
+
+.money{
+    margin-top: 30px;
+}
+
+.money p{
+    padding: 4px 0px;
+}
+
+#ft-weight-money{
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.add-ml-mr{
+    margin: 0px 20px;
+}
+
+#foot-cont{
+    background-color: rgb(197, 191, 191);
+    width: 80vw;
+    margin: 20px auto;
+    height: 5vw;
+}
+
+#privacy{
+    display: flex;
+    height:auto;
+    justify-content: flex-end;
+    align-items: center;
+    font-size: 1.2em;
+}
+
+#foot-cont p{
+font-size: 1.3em;
+    margin: 3px 10px;
+    float: right;
+}
+
+
+
+@media (max-width: 500px){
+    #cont-flex{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+          width: auto;
+        }
+  
+  #ind-flex{
+    width: auto;
+  }
+  
+  .icons{
+    display: none;
+  }
+}
